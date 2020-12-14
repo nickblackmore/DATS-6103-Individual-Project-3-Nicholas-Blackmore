@@ -1,0 +1,51 @@
+DE_NAME|DISP_LABEL|DATA_TYPE|MAX_LEN|DECIMAL_PLACES|DE_TYPE|IB_TYPE|FLAG_DE_NAME|MEANING_TABLE_NAME
+GEOTYPE|Type of geography flag|CHARACTER|2|0|G|||META0500
+GEOTYPE_MEANING|Meaning of Type of geography flag|CHARACTER|4000|0||||
+ST|FIPS state code|CHARACTER|2|0|G|||
+COUNTY|FIPS county code|CHARACTER|3|0|G|||
+PLACE|FIPS place code|CHARACTER|5|0|G|||
+CSA|FIPS Combined Statistical Area code|CHARACTER|3|0|G|||
+MSA|FIPS Metropolitan or Micropolitan Area code|CHARACTER|5|0|G|||
+MD|FIPS Metropolitan Division code|CHARACTER|5|0|G|||
+GEO_ID|Geographic identifier code|CHARACTER|20|0|G|||META0422
+GEOGRAPHY|Geographic Area|CHARACTER|1000|0||||
+PROGRAM|Economic program identifier|CHARACTER|2|0|O|||META0500
+PROGRAM_MEANING|Meaning of Economic program identifier|CHARACTER|4000|0||||
+SECTOR|NAICS economic sector code|CHARACTER|2|0|O|||META0500
+SECTOR_MEANING|Meaning of NAICS economic sector code|CHARACTER|4000|0||||
+NAICS2007|2007 NAICS code|CHARACTER|8|0|I|NAICS2007||META1422
+NAICS2007_MEANING|Meaning of 2007 NAICS code|CHARACTER|255|0||||
+CBOGROUP|Ethnicity, race, and veteran status code|CHARACTER|2|0|X|||META0500
+CBOGROUP_MEANING|Meaning of Ethnicity, race, and veteran status code|CHARACTER|4000|0||||
+CBOSEX|Gender code|CHARACTER|2|0|X|||META0500
+CBOSEX_MEANING|Meaning of Gender code|CHARACTER|4000|0||||
+OWNRAGE|Owners age code|CHARACTER|3|0|X|||META0500
+OWNRAGE_MEANING|Meaning of Owners age code|CHARACTER|4000|0||||
+FOOTID|Footnote identifier|CHARACTER|3|0|O|||META0500
+FOOTID_MEANING|Meaning of Footnote identifier|CHARACTER|4000|0||||
+YEAR|Year|CHARACTER|4|0|R|||META0500
+YEAR_MEANING|Meaning of Year|CHARACTER|4000|0||||
+OWNALL|Owners of respondent firms (number)|NUMBER|8|0|D||OWNALL_F|
+OWNALL_F|Flag for number of owners of respondent firms|CHARACTER|3|0|F|||META0500
+OWNALL_PCT|Percent of owners of respondent firms (%)|NUMBER|8|1|D||OWNALL_PCT_F|
+OWNALL_PCT_F|Flag for percent of owners of respondent firms|CHARACTER|3|0|F|||META0500
+OWNPDEMP|Owners of respondent employer firms (number)|NUMBER|8|0|D||OWNPDEMP_F|
+OWNPDEMP_F|Flag for number of owners of respondent employer firms|CHARACTER|3|0|F|||META0500
+OWNPDEMP_PCT|Percent of owners of respondent employer firms (%)|NUMBER|8|1|D||OWNPDEMP_PCT_F|
+OWNPDEMP_PCT_F|Flag for percent of owners of respondent employer firms|CHARACTER|3|0|F|||META0500
+OWNNOPD|Owners of respondent nonemployer firms (number)|NUMBER|8|0|D||OWNNOPD_F|
+OWNNOPD_F|Flag for number of owners of respondent nonemployer firms|CHARACTER|3|0|F|||META0500
+OWNNOPD_PCT|Percent of owners of respondent nonemployer firms (%)|NUMBER|8|1|D||OWNNOPD_PCT_F|
+OWNNOPD_PCT_F|Flag for percent of owners of respondent nonemployer firms|CHARACTER|3|0|F|||META0500
+OWNALL_S|RSE of number of owners of respondent firms (%)|NUMBER|8|0|D||OWNALL_S_F|
+OWNALL_S_F|Flag for RSE of number of owners of respondent firms|CHARACTER|3|0|F|||META0500
+OWNALL_PCT_S|SE of percent of owners of respondent firms (%)|NUMBER|8|1|D||OWNALL_PCT_S_F|
+OWNALL_PCT_S_F|Flag for SE of percent of owners of respondent firms|CHARACTER|3|0|F|||META0500
+OWNPDEMP_S|RSE of number of owners of respondent employer firms (%)|NUMBER|8|0|D||OWNPDEMP_S_F|
+OWNPDEMP_S_F|Flag for RSE of number of owners of respondent employer firms|CHARACTER|3|0|F|||META0500
+OWNPDEMP_PCT_S|SE of percent of owners of respondent employer firms (%)|NUMBER|8|1|D||OWNPDEMP_PCT_S_F|
+OWNPDEMP_PCT_S_F|Flag for SE of percent of owners of respondent employer firms|CHARACTER|3|0|F|||META0500
+OWNNOPD_S|RSE of number of owners of respondent nonemployer firms (%)|NUMBER|8|0|D||OWNNOPD_S_F|
+OWNNOPD_S_F|Flag for RSE of number of owners of respondent nonemployer firms|CHARACTER|3|0|F|||META0500
+OWNNOPD_PCT_S|SE of percent of owners of respondent nonemployer firms (%)|NUMBER|8|1|D||OWNNOPD_PCT_S_F|
+OWNNOPD_PCT_S_F|Flag for SE of percent of owners of respondent nonemployer firms|CHARACTER|3|0|F|||META0500
